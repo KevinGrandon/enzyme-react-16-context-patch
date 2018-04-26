@@ -1,11 +1,11 @@
 {
   "name": "enzyme-context-patch",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
+  "bin": "bin/patch-enzyme.sh",
   "scripts": {
-    "postinstall":
-      "echo Patching enzyme peer dependency && patch -p1 < node_modules/enzyme-context-patch/patches/enzyme-adapter-react-16+1.1.1.patch"
+    "postinstall": "./bin/patch-enzyme.sh"
   },
   "peerDependencies": {
     "enzyme": "^3.3.0"
