@@ -1,0 +1,15 @@
+{
+  "name": "enzyme-context-patch",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "patch-package"
+  },
+  "peerDependencies": {
+    "enzyme": "^3.3.0"
+  },
+  "dependencies": {
+    "patch-package": "^5.1.1"
+  }
+}
