@@ -1,11 +1,11 @@
 {
   "name": "enzyme-context-patch",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "main": "index.js",
   "license": "MIT",
   "bin": "bin/patch-enzyme.sh",
   "scripts": {
-    "postinstall": "./bin/patch-enzyme.sh"
+    "postinstall": "echo 'Patching from postinstall.' && ./bin/patch-enzyme.sh"
   },
   "peerDependencies": {
     "enzyme": "^3.3.0"
