@@ -1,4 +1,4 @@
-# Enzyme Patched for context
+# Enzyme, Patched for context
 
 This is a supplemental package for enzyme which fixes the Context issues in React 16. These context issues have been fixed in Enzyme, but are taking forever to be published to registries. See https://github.com/airbnb/enzyme/pull/1513 for more information.
 
