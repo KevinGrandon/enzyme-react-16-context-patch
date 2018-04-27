@@ -1,8 +1,9 @@
 {
   "name": "enzyme-context-patch",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "index.js",
   "license": "MIT",
+  "repository": "KevinGrandon/enzyme-react-16-context-patch",
   "bin": "bin/patch-enzyme.sh",
   "scripts": {
     "postinstall": "echo 'Patching from postinstall.' && ./bin/patch-enzyme.sh"
