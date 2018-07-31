@@ -6,7 +6,7 @@
   "repository": "KevinGrandon/enzyme-react-16-context-patch",
   "bin": "bin/patch-enzyme.sh",
   "scripts": {
-    "postinstall": "echo 'Patching from postinstall.' && bin/patch-enzyme.sh"
+    "postinstall": "echo 'Patching from postinstall.' && bash bin/patch-enzyme.sh"
   },
   "peerDependencies": {
     "enzyme": "^3.3.0"
