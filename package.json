@@ -1,6 +1,6 @@
 {
   "name": "enzyme-context-patch",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "index.js",
   "license": "MIT",
   "repository": "KevinGrandon/enzyme-react-16-context-patch",
